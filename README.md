@@ -1,4 +1,4 @@
 - 👋 Hi, I’m Ivan, I am so young
 - 👀 I’m interested in programming, I love python
 - 🌱 I’m currently learning more python funkctions
-- I want only show my projects
+- I want only show my first projects
