@@ -1,0 +1,22 @@
+import time
+Intro = "There is Formula 3x + 1, please write x\n"
+for i in Intro:
+    time.sleep(0.05)
+    print(i, end='', flush=True)
+time.sleep(0.6)
+Ans = input("x = ")
+print()
+Ans = int(Ans)
+while True:
+    if (Ans % 2) == 0:
+        print(Ans, ": 2", "=", Ans//2)
+        Ans = Ans//2
+        time.sleep(0.1)
+        continue
+    elif Ans == 1:
+        break
+    else:
+        print(Ans, "* 3 + 1", "=", Ans * 3 + 1)
+        Ans = Ans * 3 + 1
+        time.sleep(0.1)
+        continue
