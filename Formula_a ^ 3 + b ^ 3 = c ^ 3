@@ -1,0 +1,21 @@
+
+a = 1
+options = []
+b = 1
+Ans = input("Number:\n")
+Ans = int(Ans)
+while b < Ans:
+    b = a * a * a
+    a += 1
+    options.append(b)
+while True:
+    for x in options:
+        for y in options:
+            Sum = y + x
+            print(x, "+", y, "=", Sum)
+    if (Sum ** (1 / 3)) ** 3 == Sum:
+            print("True")
+            break
+    else:
+        print("False")
+        quit()
